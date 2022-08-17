@@ -1,3 +1,8 @@
+html {
+  box-shadow: inset 0 0 0 1000px rgba(17, 197, 241, 0.733);
+  height: 100%;
+}
+
 h1, p {
   text-align: Left;
   padding-left: 10px;
@@ -15,7 +20,7 @@ h2,  fieldset{
  .daily {
    margin: 0 auto;
    max-width: 700px;
-  border: 5px solid rgb(0, 0, 0);
+   border: 5px solid rgb(0, 0, 0);
    background-color: rgba(181, 199, 226, 0.932);
    border-radius: 15px;
    font-family: 'Maven Pro', sans-serif;
@@ -26,6 +31,8 @@ h2,  fieldset{
  body {
    background-image: url(lostArkMS.jpeg);
    background: cover;
+   margin: 0;
+ 
 
  }
  .class1 {
@@ -161,4 +168,31 @@ input {
 
 fieldset {
   color: black;
+}
+
+nav,ul {
+  width: 100%;
+  height: 75px;
+  background-color: black;
+  
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+  
+}
+
+li {
+  height: 80%;
+  color: white;
+  display: flex;
+  
+}
+
+nav img {
+  border-radius: 60%;
+  height: 100%;
+}
+
+nav {
+  box-shadow:  10px 5px 4px   rgba(219, 0, 248, 0.733);
 }
